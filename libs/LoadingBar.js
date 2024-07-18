@@ -20,8 +20,8 @@ class LoadingBar {
         const textElement = document.createElement("div");
         textElement.textContent = "W E L C O M E";
         textElement.style.position = 'absolute';
-        textElement.style.top = '-30px'; // Position the text above the bar
-        textElement.style.left = '50%';
+        textElement.style.top = '-40px'; // Position the text above the bar
+        textElement.style.left = '70%';
         textElement.style.transform = 'translateX(-50%)';
         textElement.style.fontSize = '30px';
 		textElement.style.width = '50%';
