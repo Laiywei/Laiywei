@@ -23,9 +23,9 @@ class LoadingBar {
         textElement.style.top = '-30px'; // Position the text above the bar
         textElement.style.left = '50%';
         textElement.style.transform = 'translateX(-50%)';
-        textElement.style.fontSize = '12px';
+        textElement.style.fontSize = '20px';
 		textElement.style.width = '50%';
-        textElement.style.color = '#fffff'; // Text color
+        textElement.style.color = '#FFFFFF'; // Text color
 		textElement.style.minWidth = '250px';
         barContainer.appendChild(textElement);
 
