@@ -185,7 +185,7 @@ class VRButton{
         element.style.bottom = '20px';
         if (!ignorePadding) element.style.padding = '12px 6px';
         element.style.border = '1px solid #fff';
-        element.style.borderRadius = '4px';
+        element.style.borderRadius = '12px';
         element.style.background = (active) ? 'rgba(255,192,203,1)' : 'rgba(180,20,20,1)';
         element.style.color = '#fff';
         element.style.font = `normal ${fontSize}px sans-serif`;
