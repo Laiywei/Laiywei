@@ -18,14 +18,14 @@ class LoadingBar {
         this.domElement.appendChild(barContainer);
 
         const textElement = document.createElement("div");
-        textElement.textContent = "Welcome to MMU";
+        textElement.textContent = "W E L C O M E";
         textElement.style.position = 'absolute';
         textElement.style.top = '-30px'; // Position the text above the bar
         textElement.style.left = '50%';
         textElement.style.transform = 'translateX(-50%)';
-        textElement.style.fontSize = '20px';
+        textElement.style.fontSize = '12px';
 		textElement.style.width = '50%';
-        textElement.style.color = '#fff'; // Text color
+        textElement.style.color = '#fffff'; // Text color
 		textElement.style.minWidth = '250px';
         barContainer.appendChild(textElement);
 
