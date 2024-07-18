@@ -24,7 +24,9 @@ class LoadingBar {
         textElement.style.left = '50%';
         textElement.style.transform = 'translateX(-50%)';
         textElement.style.fontSize = '20px';
-        textElement.style.color = '#000'; // Text color
+		textElement.style.width = '50%';
+        textElement.style.color = '#fff'; // Text color
+		textElement.style.minWidth = '250px';
         barContainer.appendChild(textElement);
 
         const barBase = document.createElement("div");
